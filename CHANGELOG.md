@@ -8,6 +8,14 @@
 - Sort the cart by DVD title or cost.
 - Search DVDs by category.
 
+### Fixed
+- Match DVD titles without case sensitivity (#18).
+
+## [1.0.1] - 2026-11-07
+
+### Fixed
+- Match DVD titles without case sensitivity (#18).
+
 ## [1.0.0] - 2026-11-07
 
 ### Added
