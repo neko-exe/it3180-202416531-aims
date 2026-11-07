@@ -4,6 +4,7 @@
 
 ### Added
 - Sort the cart by DVD title or cost.
+- Search DVDs by category.
 
 ## [1.0.0] - 2026-11-07
 
