@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Added
+- Sort the cart by DVD title or cost.
+
 ## [1.0.0] - 2026-11-07
 
 ### Added
