@@ -38,3 +38,17 @@ Check out the tag in a detached worktree, run its own tests, inspect the
 version and changelog, and list tracked files. git archive packages the
 tracked tree of the chosen tag. A..B lists commits reachable from B but
 not A. Testing a current checkout does not validate an older tag.
+
+## Checks performed after publishing the baseline
+
+Annotated v0.1.0, v0.2.0 and v0.3.0 identify the earlier checkpoints;
+v1.0.0 identifies the Lab 04 baseline on release/lab04. Its GitHub Release
+uses that existing tag. Master requires the successful CI check `test`.
+
+Detached worktrees ran the v0.2.0 demo and the four-test v1.0.0 suite.
+The 1.0.0 demo shows its version and 63.89 $. That baseline contains no
+sorting. git archive produced aims-1.0.0.zip outside the repository.
+The supplied older archive was preserved separately.
+
+Sorting and its two tests are added after v1.0.0. The development suite
+now contains six tests; the published 1.0.0 tag is unchanged.
